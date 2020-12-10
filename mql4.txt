@@ -1,0 +1,26 @@
+2020/12/07
+
+『int IndicaterCounted();』⇐ int start()関数
+
+
+現在のバージョンは、カスタムインディケータは「OnCalcurate()」関数をしようしてる、
+
+古いバージョンでの「int start()」関数は今でも使えるが
+
+「int start()」と「OnCalcurate()」関数は同じソースで使うと『競合』して
+
+コンパイルエラーになる。
+
+
+また、『OnCalcurate()』関数の引数の『priv_calcurate()』を使うことで
+
+『IndicaterCounted()』関数を使用する必要が無くなる。
+
+
+現在のバージョンのメタエディタで新規にカスタマイズインジケータを制作知る場合は、
+
+『IndicaterCounted()』関数を使う機会は殆ど無いと思う。
+
+
+参照
+https://yukifx.web.fc2.com/sub/reference/20_custom_ind/cone/custom_indcounted.html
